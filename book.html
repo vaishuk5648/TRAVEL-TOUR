@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charaset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>home</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+        <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" >
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="header">
+        <a href="home.html" class="logo">Travel Tour </a>
+
+        <nav class="navbar">
+            <a href="home.html"> HOME </a>
+            <a href="about.html"> ABOUT ND PACKAGES</a>
+            <a href="package.html"> SOLO TRAVLLERS</a>
+            <a href="book.html">CONTACT US</a>
+</nav>
+
+
+</section>
+<div class="heading"  style="background:url(images/book.jpg) no-repeat"> 
+    <h1>book now</h1>
+</div>
+<section class="booking">
+    <h1 class="heading-title">
+        book your trip now!!!
+    </h1>
+    
+    <div class="container register">
+        <div class="row">
+            <div class="col-md-12">
+                    <div class="tab-pane fade show active text-align form-new" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <h3 class="register-heading">BOOK YOUR TRIP</h3>
+                        <div class="row register-form">
+                            <div class="col-md-12">
+     <form name="google-sheet-1" method="post" autocomplete="off" name="google-sheet">
+     <div class="form-group">
+       <input type="text" name="NAME" class="form-control" placeholder="NAME *" value="" required=""/>
+        </div>
+     <div class="form-group">
+    <input type="text" name="EMAIL" class="form-control" placeholder="EMAIL *" value="" required=""/>
+         </div>
+     <div class="form-group">       
+   <input type="number" name="CONTACT NO" class="form-control" placeholder="CONTACT NO *" value="" required=""/>
+         </div>
+            <div class="form-group">
+        <input type="DATE" name="ARRIVALS" class="form-control" placeholder="ARRIVALS *" value="" required=""/>
+     </div>
+<div class="form-group">
+      <input type="text" name="DESTINATION" class="form-control" placeholder="DESTINATION *" value="" required=""/>
+ </div>
+ <div class="form-group">
+    <input type="number" name="GUESTS" class="form-control" placeholder="GUESTS *" value="" required=""/>
+</div>
+    <div class="form-group">
+            <input type="submit" name="submit" class="btnSubmit btn-block" value="submit" />
+          </div>
+             </form>
+</section>
+<!---ftgu----->
+
+
+<center>
+<section>
+    <div class="feedback-form-container">
+        <h2>We Value Your Feedback!</h2>
+        <p>Please let us know how we can improve our travel tours. Your feedback helps us grow!</p>
+        
+        <!-- Form to collect feedback -->
+        <form name="google-sheet-2" method="post" autocomplete="off" name="Feedback-form" action="https://script.google.com/macros/s/AKfycbxQLlro3zOqRtlCNL4K2rY_0gtiXuS9DG9hF8CfxF6xQ4pn1SrOl5JjdCCN24UqkRpe/exec">
+          <div class="input-group">
+            <label for="name">Your Name:<br></label> <br>
+            <br> <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name" required>
+          </div>
+    
+          <div class="input-group">
+            <label for="email">Your Email:  </label> 
+            <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email" required>
+          </div>
+    
+          <div class="input-group">
+            <label for="rating">Rating (1-5):  </label>
+            <select id="rating" name="rating" class="form-control" required>
+              <option value="1">1 - Poor</option>
+              <option value="2">2 - Fair</option>
+              <option value="3">3 - Good</option>
+              <option value="4">4 - Very Good</option>
+              <option value="5">5 - Excellent</option>
+            </select>
+          </div>
+    
+          <div class="input-group">
+            <label for="feedback">Your Feedback:  </label>
+            <textarea id="feedback" name="feedback" class="form-control" placeholder="Write your feedback here..." required></textarea>
+          </div>
+    
+          <button type="submit" class="cta-button">Submit Feedback</button>
+          
+
+         
+        </form>
+        
+
+
+      </div>
+</section>  
+
+</center>
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--footer-->
+<footer class="footer">
+    <div class="footer-content">
+      <h3>Travel Tour</h3>
+      <p>Discover new places, cultures, and adventures!</p>
+      <div class="social-icons">
+        <a href="#" class="icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="icon"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="icon"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="icon"><i class="fab fa-whatsapp"></i></a>
+        <a href="#" class="icon"><i class="fab fa-youtube"></i></a>
+      </div>
+      <p class="footer-bottom-text">Created By: Vaishnavi Kadam | © 2025 All rights reserved.</p>
+    </div>
+  </footer>
+  
+  <!-- Font Awesome CDN for icons -->
+  <script src="https://kit.fontawesome.com/your_kit_code.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+
+
+
+  <!-- Footer End -->
+
+
+
+  <script>
+    // Form 1
+    const scriptURL1 = "https://script.google.com/macros/s/AKfycbwl-4vyWb9IsH9ukqP4mr_P1uHdpzIGeiEjyoNYsFdxUuvEtivh1eLmTWznwiCbRbd6/exec";
+    const form1 = document.forms['google-sheet-1'];
+  
+    form1.addEventListener('submit', e => {
+      e.preventDefault();
+      fetch(scriptURL1, { method: 'POST', body: new FormData(form1) })
+        .then(response => alert("Form 1: Thanks for contacting us! We will contact you soon..."))
+        .catch(error => console.error('Form 1 Error!', error.message));
+    });
+  
+    // Form 2
+    const scriptURL2 = "https://script.google.com/macros/s/AKfycbxQLlro3zOqRtlCNL4K2rY_0gtiXuS9DG9hF8CfxF6xQ4pn1SrOl5JjdCCN24UqkRpe/exec";
+    const form2 = document.forms['google-sheet-2'];
+  
+    form2.addEventListener('submit', e => {
+      e.preventDefault();
+      fetch(scriptURL2, { method: 'POST', body: new FormData(form2) })
+        .then(response => alert("Form 2: Thanks for contacting us! We will contact you soon..."))
+        .catch(error => console.error('Form 2 Error!', error.message));
+    });
+  </script>
+  
+
+
+
+
+
+
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charaset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>home</title>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+        <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" >
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="header">
+        <a href="home.html" class="logo"> Travel Tour </a>
+
+        <nav class="navbar">
+            <a href="home.html"> HOME </a>
+            <a href="about.html"> ABOUT ND PACKAGES</a>
+            <a href="package.html"> SOLO TRAVLLERS</a>
+            <a href="book.html">CONTACT US</a>
+</nav>
+
+</section>
+<div class="heading"  style="background:url(images/templle.jpg)" no-repeat> 
+    <h1>Solo Traveler's Community</h1>
+</div>
+<!--newww-->
+
+
+
+
+<!--newww-->
+<section class="solo-travel">
+    <div class="solo-header">
+        <h1>Travel Solo, Together</h1>
+        <p>Join a community of like-minded solo travelers from around the world. Explore India, make new friends, and experience the beauty of India together!</p>
+       <br><br> <a href="#join-now" class="cta-button">Join the Journey</a>
+    </div><br><br>
+    <div class="how-it-works">
+        <h1>How it Works</h1>
+        <p>Joining a solo trip is easy! Here’s how we bring solo travelers together:</p>
+        <ul>
+            <li>1. Choose Your Destination: Browse through our list of solo-friendly travel packages.</li>
+            <li>2. Sign Up: Complete your registration to join the group and confirm your spot.</li>
+            <li>3. Meet Fellow Travelers: Connect with others in your group before the trip and share your excitement.</li>
+            <li>4. Travel Together: Your guide will take care of all logistics, while you enjoy the journey with new friends!</li>
+        </ul></div>
+ <center>
+     <div class="form-container">
+        <h2>Ready for Your Solo Adventure?</h2>
+        <p>Fill out the form below to get started. Our team will match you with a perfect group for your adventure.</p>
+        <form method="post" autocomplete="off" name="google-sheet" >
+          <input type="text" name="NAME" class="form-control" placeholder="NAME" value="" required="">
+          <input type="email" name="EMAIL" class="form-control" placeholder="EMAIL" value="" required="">
+          <select name="tour" class="form-control">
+            <option value="FESTIVAL TOUR">Festival Tour</option>
+            <option value="himalayas">Himalayan Trek</option>
+            <option value="kerala">Kerala Backwaters</option>
+            <option value="goa">Goa Beach Escape</option>
+            <option value="india">Golden Triangle Tour of India</option>
+            <option value="amrit">Golden Triangle Tour with Amritsar</option>
+            <option value="andman">Andaman & Havelock Island</option>
+            <option value="himachal">Himachal Highlights</option>
+            <option value="rajasstan">Magical Rajasthan</option>
+            <option value="yatra">Chardham Yatra</option>
+            <option value="ladakh">Ladakh</option>
+          </select>
+          <button type="submit" class="cta-button">Submit</button>
+        </form></div>
+    </center>
+</section>
+<script>
+    const scriptURL ="https://script.google.com/macros/s/AKfycby4jLPp52RzM8DdxKIv9U92bS-qHAURAqXYn949VsWTEqC80ZiQIjSujsDsfbnAhGQs/exec"
+const form = document.forms['google-sheet']
+
+form.addEventListener('submit', e => {
+  e.preventDefault()
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+    .catch(error => console.error('Error!', error.message))
+})     
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--newww-->
+<!--home package-->
+<section class="packages-packages">
+    <h1 class="heading-title">Festival Tour of India</h1>
+    <h2>Lets Discover Indian Festival with Our Festival Tour in India package, where every needed detail for American, Canadian, European and other international tourists, is presented for you. Let yourself get immersed in the colorful weave of celebrations that are India. With the range of colors from Holi to the display of Diwali lights, our website will carry you through a fascinating trip of India’s most respected festivals.
+
+ 
+
+        At India Travel, we are experts in designing tours that would give you a real experience of India and its lifestyle. Whether you’re in search of the thrill of Holi, the devotion of Diwali, or the cultural Fair you’ll have a time you will never forget with the true experience and warm hospitality.
+        
+        
+        Be the part of us during the celebration of life, love, and unity on the fruits of varied Indian festivals.</h2>
+
+        <br>
+        <br>
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="images/f1.jpg" alt="Image 1">
+            </div>
+            <div class="content">
+                <h3>diwali </h3>
+            </div>
+        </div>           
+        <div class="box">
+            <div class="image">
+                <img src="images/f2.jpg" alt="Gulmarg">
+            </div>
+            <div class="content">
+                <h3>durga puja</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="images/f3.jpg" alt="Varanasi">
+            </div>
+            <div class="content">
+                <h3>ganesh chaturthi</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="images/f4.jpg" alt="Darjeeling">
+            </div>
+            <div class="content">
+                <h3>holi</h3>
+            </div>
+        </div>  
+        <div class="box">
+            <div class="image">
+                <img src="images/f5.jpg" alt="Jaisalmer">
+            </div>
+            <div class="content">
+                <h3>pongal </h3>
+            </div>
+        </div>  
+        <div class="box">
+            <div class="image">
+                <img src="images/f6.jpg" alt="Auli">
+            </div>
+            <div class="content">
+                <h3>Gangaur</h3>
+            </div>
+        </div>  
+    </div>
+    <div class="load-more"><a href="book.html" class="btn">Load More</a></div>
+</section>
+
+
+
+
+
+<!--footer-->
+<footer class="footer">
+    <div class="footer-content">
+      <h3>Travel Tour</h3>
+      <p>Discover new places, cultures, and adventures!</p>
+      <div class="social-icons">
+        <a href="#" class="icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="icon"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="icon"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="icon"><i class="fab fa-whatsapp"></i></a>
+        <a href="#" class="icon"><i class="fab fa-youtube"></i></a>
+      </div>
+      <p class="footer-bottom-text">Created By: Vaishnavi Kadam | © 2025 All rights reserved.</p>
+    </div>
+  </footer>
+  
+  <!-- Font Awesome CDN for icons -->
+  <script src="https://kit.fontawesome.com/your_kit_code.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+
+
+
+  <!-- Footer End -->
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
